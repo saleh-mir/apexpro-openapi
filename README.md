@@ -10,6 +10,10 @@ If you're looking for a ready to use connector for the Apexpro API, please consi
 ## Installation
 `jesse-apexpro` requires Python 3.8 or higher. The module can be installed manually or via [jesse-apexpro](https://pypi.org/project/jesse-apexpro/) with `pip`:
 
+```
+pip install jesse-apexpro
+```
+
 ## New Basic Usage V2 
 You can create an HTTP session for Inverse on APEX_HTTP_TEST or APEX_HTTP_MAIN:
 ```python
