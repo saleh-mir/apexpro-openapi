@@ -1,21 +1,14 @@
-# apexpro
+# jesse-apexpro
 
-Official Python3 API connector for Apexpro's HTTP and WebSockets APIs.  
+This is a fork of the official Python3 API connector for Apexpro's HTTP and WebSockets APIs, modified to support new versions of Python and to be used with Jesse.  
 You can get Api information from 
 [OpenApi-SDK](https://api-docs.pro.apex.exchange/#introduction)
 
 ## About
-Put simply, `apexpro`  is the official lightweight one-stop-shop module for the Apex pro HTTP and WebSocket APIs. 
-
-## Development
-`apexpro` is being actively developed, and new API changes should arrive on `apexpro` very quickly. `apexpro` uses `requests` and `websocket` for its methods, alongside other built-in modules. Anyone is welcome to branch/fork the repository and add their own upgrades. If you think you've made substantial improvements to the module, submit a pull request and we'll gladly take a look.
+`jesse-apexpro` is a lightweight one-stop-shop module for the Apex pro HTTP and WebSocket APIs, designed to be used with Jesse. 
 
 ## Installation
-`apexpro` requires Python 3.6.1 or higher. The module can be installed manually or via [apexpro](https://pypi.org/project/apexpro/) with `pip`:
-```
-pip install apexpro
-```
-
+`jesse-apexpro` requires Python 3.8 or higher. The module can be installed manually or via [jesse-apexpro](https://pypi.org/project/jesse-apexpro/) with `pip`:
 ## New Basic Usage V2 
 You can create an HTTP session for Inverse on APEX_HTTP_TEST or APEX_HTTP_MAIN:
 ```python
